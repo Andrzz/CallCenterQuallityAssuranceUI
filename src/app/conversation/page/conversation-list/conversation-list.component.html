@@ -1,0 +1,5 @@
+<ng-container *ngIf="conversations">
+  <div *ngFor="let conversation of conversations">
+    <app-conversation-item [conversationItem]="conversation"></app-conversation-item>
+  </div>
+</ng-container>
